@@ -8,3 +8,6 @@ vehicle:
  default:
   model: suzuki
 duration: all
+source:
+ username: pruthi
+ password: text
