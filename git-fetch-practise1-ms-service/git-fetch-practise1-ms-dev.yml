@@ -8,6 +8,5 @@ vehicle:
  default:
   model: suzuki
 duration: all
-source:
  username: pruthi
  password: '{cipher}f02a3fcf01513b39d8a51d1fb7138cfc2ef51fbc8aa0492f7dbf2cdfcbe5bcfe'
