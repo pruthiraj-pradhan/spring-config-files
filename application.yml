@@ -8,16 +8,16 @@
 #          uri: https://github.com/krish/spring-cloud-config
 #          search-paths:
 #           - '*service'
-#spring:
-#  profiles: movie-detail-secret
-#  datasource:
-#    username: hr
-#    password: '{cipher}56695806d254d8542e28b12e666da0698cde0d2606a434cb2000d7f1e4ef2a8c'
-#########################################################################################
-#---
-#spring:
-#  profiles: rating-storage-secret
-#  datasource:
-#    username: hr
-#    password: '{cipher}56695806d254d8542e28b12e666da0698cde0d2606a434cb2000d7f1e4ef2a8c'
+spring:
+  profiles: movie-detail-secret
+  datasource:
+    username: hr
+    password: '{cipher}56695806d254d8542e28b12e666da0698cde0d2606a434cb2000d7f1e4ef2a8c'
 ########################################################################################
+---
+spring:
+  profiles: rating-storage-secret
+  datasource:
+    username: hr
+    password: '{cipher}56695806d254d8542e28b12e666da0698cde0d2606a434cb2000d7f1e4ef2a8c'
+#######################################################################################

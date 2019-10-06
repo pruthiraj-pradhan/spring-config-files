@@ -1,12 +1,12 @@
 server:
  port: 8081
-source:
-  password: '{cipher}56695806d254d8542e28b12e666da0698cde0d2606a434cb2000d7f1e4ef2a8c'
-#spring:
-#  datasource:
-#  url: jdbc:oracle:thin:@localhost:1521:xe
-#  jpa:
-#    properties:
-#      hibernate:
-#        dialect: org.hibernate.dialect.Oracle10gDialect
-#    show-sql: false
+
+spring:
+  datasource:
+  url: jdbc:oracle:thin:@localhost:1521:xe
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle10gDialect
+    show-sql: false
+  driver-class: oracle.jdbc.driver.OracleDriver
